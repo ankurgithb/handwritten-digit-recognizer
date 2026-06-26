@@ -2,6 +2,8 @@
 
 A machine learning project that classifies handwritten digits (0–9) using a Decision Tree Classifier. The model is trained on the MNIST dataset provided in the Kaggle Digit Recognizer competition and optimized using GridSearchCV for hyperparameter tuning.
 
+##kaggle score = 0.87142##
+
 📌 Features
 
 * Train a Decision Tree classifier on the MNIST dataset
