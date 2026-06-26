@@ -1,10 +1,10 @@
-🖊️ Handwritten Digit Recognizer
+Handwritten Digit Recognizer
 
 A machine learning project that classifies handwritten digits (0–9) using a Decision Tree Classifier. The model is trained on the MNIST dataset provided in the Kaggle Digit Recognizer competition and optimized using GridSearchCV for hyperparameter tuning.
 
-##kaggle score = 0.87142##
+kaggle score = 0.87142
 
-📌 Features
+Features
 
 * Train a Decision Tree classifier on the MNIST dataset
 * Hyperparameter tuning using GridSearchCV
@@ -13,7 +13,7 @@ A machine learning project that classifies handwritten digits (0–9) using a De
 * Generate a Kaggle-compatible submission.csv
 * Visualize predicted digits using Matplotlib
 
-📂 Dataset
+Dataset
 
 This project uses the Digit Recognizer dataset from Kaggle.
 
@@ -30,7 +30,7 @@ Each image is represented as 784 pixel values (28 × 28 grayscale image).
 * Matplotlib
 * Scikit-learn
 
-🚀 Machine Learning Workflow
+Machine Learning Workflow
 
 1. Load the training and testing datasets.
 2. Separate features and labels.
@@ -40,21 +40,21 @@ Each image is represented as 784 pixel values (28 × 28 grayscale image).
 6. Predict labels for the test dataset.
 7. Generate a submission.csv file for Kaggle.
 
-⚙️ Hyperparameters Tuned
+Hyperparameters Tuned
 
 * criterion
 * max_depth
 * min_samples_split
 * min_samples_leaf
 
-📈 Results
+Results
 
 * Model: Decision Tree Classifier
 * Hyperparameter Tuning: GridSearchCV
 * Cross Validation: 5-Fold
 * Kaggle Public Leaderboard Score: 0.87142
 
-📁 Project Structure
+Project Structure
 
 Digit Recognizer/
 │
@@ -66,7 +66,7 @@ Digit Recognizer/
 ├── submission.csv
 └── README.md
 
-▶️ How to Run
+How to Run
 
 1. Clone the repository.
 
@@ -82,15 +82,7 @@ python main.py
 
 After training, the program will generate a submission.csv file that can be uploaded to the Kaggle Digit Recognizer competition.
 
-🎯 Future Improvements
-
-* Implement Random Forest Classifier
-* Try K-Nearest Neighbors (KNN)
-* Experiment with Support Vector Machines (SVM)
-* Build a Neural Network using TensorFlow or PyTorch
-* Improve accuracy using Convolutional Neural Networks (CNNs)
-
-📚 What I Learned
+What I Learned
 
 * Data preprocessing with Pandas
 * Decision Tree Classification
@@ -99,9 +91,5 @@ After training, the program will generate a submission.csv file that can be uplo
 * Model evaluation
 * Creating Kaggle competition submissions
 * End-to-end machine learning workflow
-
-👨‍💻 Author
-
-Ankur Joshi
 
 If you found this project helpful, feel free to ⭐ the repository.
